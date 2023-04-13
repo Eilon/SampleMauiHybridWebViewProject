@@ -49,13 +49,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Remove="Resources\Raw\hybrid_root\HybridWebView.js" />
 		<None Remove="Resources\Raw\hybrid_root\index.html" />
 		<None Remove="Resources\Raw\hybrid_root\myapp.js" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="EJL.MauiHybridWebView" Version="1.0.0-preview1" />
+		<PackageReference Include="EJL.MauiHybridWebView" Version="1.0.0-preview2" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
